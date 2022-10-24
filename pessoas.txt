@@ -1,0 +1,3 @@
+{'ID': 1, 'nome': 'Jean', 'cpf': '000000'}
+{'ID': 2, 'nome': 'Felicia', 'cpf': '000000'}
+{'ID': 3, 'nome': 'Georgia2', 'cpf': '123000000'}
