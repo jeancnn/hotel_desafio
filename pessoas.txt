@@ -1,3 +1,7 @@
-{'ID': 1, 'nome': 'Jean', 'cpf': '000000'}
-{'ID': 2, 'nome': 'Felicia', 'cpf': '000000'}
-{'ID': 3, 'nome': 'Georgia2', 'cpf': '123000000'}
+{'ID': 1, 'nome': 'Jean', 'cpf': '123000000', 'checkin': 0}
+{'ID': 2, 'nome': 'Felicia', 'cpf': '000000', 'checkin': 0}
+{'ID': 3, 'nome': 'Georgia', 'cpf': '123000000', 'checkin': 0}
+{'ID': 5, 'nome': 'JEan22', 'cpf': '234234', 'checkin': 0}
+{'ID': 6, 'nome': 'Teste0', 'cpf': '234234', 'checkin':'1'}
+{'ID': 9, 'nome': 'Jeandfsdf', 'cpf': '1234234', 'checkin':'1'}
+{'ID': 24, 'nome': 'Lirinha', 'cpf': '123', 'checkin':'1'}
