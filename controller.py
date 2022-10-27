@@ -73,8 +73,13 @@ def relatorioPessoas():
         return pessoasAretornar
 
 def mostraPessoasBonito(listaPessoas):
+    print("\n")
     for line in listaPessoas:
-        print("ID:" + str(line["ID"]) + " Nome: " + line["nome"])
+        tabID = " "*(5-len(str(line["ID"])))
+        print("ID:" + str(line["ID"]) + tabID + " Nome: " + line["nome"])
+    print("\n")
+
+
 
 def menu():
     print("1- Fazer CheckIn:")
