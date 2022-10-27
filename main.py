@@ -31,7 +31,8 @@ while True:
                 print("Usuario não encontrado")
                 input()
         case '3':
-            relatorioPessoas()
+            mostraPessoasBonito(relatorioPessoas())
+            print(f"Quantidade atual de hospedes: {len(relatorioPessoas())}")
         case '4':
             buscaPessoaMenu = input("Digite o nome do usuário: ")
             print(buscaPessoa(buscaPessoaMenu))

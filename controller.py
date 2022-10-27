@@ -61,13 +61,20 @@ def existePessoa(pessoa): #Recebe o [dicionario] pessoa e verifica se ela existe
     return False
 
 def relatorioPessoas():
+    pessoasAretornar = []
+    
     with open('pessoas.txt', 'r') as reader:
-
+        
         for line in reader:
             aux = ast.literal_eval(line)
             if aux['checkin'] == '1':
-                print(aux)
+                pessoasAretornar.append(aux)
+                #print(aux)
+        return pessoasAretornar
 
+def mostraPessoasBonito(listaPessoas):
+    for line in listaPessoas:
+        print("ID:" + str(line["ID"]) + " Nome: " + line["nome"])
 
 def menu():
     print("1- Fazer CheckIn:")
